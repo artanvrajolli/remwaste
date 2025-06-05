@@ -4,6 +4,12 @@ A modern, responsive React application for skip container rental services built 
 
 ![Skip Container Rental](https://img.shields.io/badge/React-19.1.0-blue) ![TypeScript](https://img.shields.io/badge/TypeScript-5.7.3-blue) ![Vite](https://img.shields.io/badge/Vite-6.2.6-purple) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-4.1.4-blue) ![Flowbite React](https://img.shields.io/badge/Flowbite%20React-0.11.7-purple)
 
+## 🚀 Live Demo
+
+**[Live Preview](https://remwaste.artan.dev/)** | **[CodeSandbox](https://codesandbox.io/p/github/artanvrajolli/remwaste/main)**
+
+Experience the application live with full functionality including product browsing, cart management, and payment flow.
+
 ## Overview
 
 This application provides a comprehensive e-commerce solution for skip container rentals, featuring a product catalog, shopping cart functionality, and payment processing interface. The application fetches real-time data from the WeWantWaste API and provides users with an intuitive interface to browse, filter, and purchase skip containers.
@@ -362,11 +368,6 @@ Compatible with modern hosting services:
 - **Advanced Analytics**: User behavior tracking and business intelligence
 - **Microservices**: Backend API modernization and scalability improvements
 
-### Development Roadmap
-- **Q2 2025**: User authentication and payment gateway integration
-- **Q3 2025**: PWA capabilities and mobile app development
-- **Q4 2025**: Advanced analytics and performance optimization
-- **2026**: Multi-location expansion and enterprise features
 
 ## Contributing
 
