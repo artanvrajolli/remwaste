@@ -5,4 +5,5 @@ import flowbiteReact from "flowbite-react/plugin/vite";
 
 export default defineConfig({
   plugins: [react(), tailwindcss(), flowbiteReact()],
+  base: "/skip-container/", // Replace with your repository name
 });
