@@ -2,6 +2,8 @@
 
 A modern, responsive React application for skip container rental services built with TypeScript, Vite, and Tailwind CSS.
 
+![Application Overview](preview/image_demo_overview.png)
+
 ![Skip Container Rental](https://img.shields.io/badge/React-19.1.0-blue) ![TypeScript](https://img.shields.io/badge/TypeScript-5.7.3-blue) ![Vite](https://img.shields.io/badge/Vite-6.2.6-purple) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-4.1.4-blue) ![Flowbite React](https://img.shields.io/badge/Flowbite%20React-0.11.7-purple)
 
 ## 🚀 Live Demo
