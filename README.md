@@ -122,24 +122,6 @@ Clone the repository, navigate to the project directory, then install dependenci
 ### Available Scripts
 The project includes several npm scripts: `dev` for starting the development server, `build` for production builds, `preview` for previewing builds, `lint` for ESLint checking, `format` for code formatting with Prettier, and `format:check` for checking code formatting.
 
-## Troubleshooting
-
-### Common Issues
-
-**Build Errors**
-Clear node_modules and package-lock.json, then reinstall dependencies. You can also clear the Vite cache using the build command with the force flag.
-
-**TypeScript Errors**
-Run TypeScript type checking without emitting files using the tsc command with the noEmit flag.
-
-**Flowbite React Issues**
-Run the Flowbite React patch using the postinstall npm script or manually with the flowbite-react patch command.
-
-**API Connection Issues**
-- Check browser network tab for CORS errors
-- Verify the WeWantWaste API endpoint is accessible
-- Application automatically falls back to static data on API failure
-
 ## Features in Detail
 
 ### Product Filtering System
@@ -387,18 +369,6 @@ This project follows modern React development practices and welcomes contributio
 - **TypeScript Strict Mode**: Maintain full type safety and strict checking
 - **Component Testing**: Add unit tests for new components and utilities
 - **Documentation**: Update README and add JSDoc comments for complex functions
-
-### Pull Request Process
-1. Fork the repository and create a feature branch
-2. Follow the existing code style and component patterns
-3. Add comprehensive tests for new functionality
-4. Update documentation and README if needed
-5. Ensure all linting and type checking passes
-6. Submit PR with detailed description and testing notes
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## Acknowledgments
 
