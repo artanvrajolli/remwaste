@@ -3,7 +3,7 @@ import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import App from "./App.tsx";
 import "./index.css";
-import Header from "./Layout/Header.tsx";
+import Header from "./layout/Header.tsx";
 import { CartProvider } from "./context/CartContext.tsx";
 
 const customTheme = createTheme({

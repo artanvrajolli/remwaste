@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState } from "react";
 import ProductCard, { ProductType } from "./ProductCard";
-import ProductFiler from "./ProductFiler";
+import ProductFilter from "./ProductFilter";
 import ProductModal from "./ProductModal";
 import { fetchSkipsByLocation, handleApiError } from "../utils";
 
@@ -93,7 +93,7 @@ export default function ProductGrid() {
         <>
             <div className="grid grid-cols-1 md:grid-cols-4  ">
                 <div className="col-span-1 relative">
-                    <ProductFiler filters={filters} setFilters={setFilters} />
+                    <ProductFilter filters={filters} setFilters={setFilters} />
                 </div>
                 <div className="col-span-3">
                     <div className="p-4 flex flex-wrap gap-2 items-center border-b border-gray-200">
