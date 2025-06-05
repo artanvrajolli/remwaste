@@ -10,13 +10,13 @@ export default function Header() {
 
     return (
         <nav className="bg-[#1a1a1a] fixed w-full z-20 top-0 start-0 border-b border-gray-200 ">
-            <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto mr-2.5">                <a href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
+            <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto ">                <a href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
                 <img src="./REM-Waste-Transparent-logo.png" className="h-16" alt="Flowbite Logo" />
             </a><div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
                     <button
                         type="button"
                         onClick={() => setIsCartOpen(true)}
-                        className={`relative cursor-pointer text-white ${state.totalItems > 0 ? 'bg-[#e15726]' : 'bg-transparent'} hover:bg-[#d35f30] focus:ring-4 focus:outline-none focus:ring-[#e15726]/30 font-medium rounded-lg text-sm p-2.5 text-center transition-colors`}
+                        className={`relative mr-2.5 cursor-pointer text-white ${state.totalItems > 0 ? 'bg-[#e15726]' : 'bg-transparent'} hover:bg-[#d35f30] focus:ring-4 focus:outline-none focus:ring-[#e15726]/30 font-medium rounded-lg text-sm p-2.5 text-center transition-colors`}
                     >
                         <FiShoppingCart className="w-5 h-5" />
                         {state.totalItems > 0 && (
