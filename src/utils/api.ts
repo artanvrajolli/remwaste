@@ -33,11 +33,10 @@ export const fetchSkipsByLocation = async (
             },
         });
     }
-    const data: SkipApiResponse[] = await response.json();
-    const processedProducts: ProductType[] = data.map((product) => ({
+    const data: SkipApiResponse[] = await response.json(); const processedProducts: ProductType[] = data.map((product) => ({
         id: product.id,
         name: product.size,
-        imageUrl: `/skips/${product.size}-yarder-skip.png`,
+        imageUrl: `./skips/${product.size}-yarder-skip.png`,
         currentPrice: product.price_before_vat,
         allowedOnRoad: product.allowed_on_road,
         allowsHeavyWaste: product.allows_heavy_waste,
